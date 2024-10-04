@@ -1,15 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
+import About from './Components/About'
+import Project from './Components/Project'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div className='' >
-        hello
+      <div className=' p-[100px] px-[150px] bg-[#232732]  w-[100vw] h-[100vh] overflow-x-hidden' >
+        <Navbar/>
+        <Hero/>
+        <About/>
+        <Project/>
+
       </div>
     </>
   )
